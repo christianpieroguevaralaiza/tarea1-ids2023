@@ -8,7 +8,7 @@ void Buscador (int Matriz[],int n){
 	char bandera='F';
 	cout<<"Digite el elemento a buscar: ";
 	cin>>E;
-	while(i<n and bandera=='F'){
+	while(i<n && bandera=='F'){
 		if(E==Matriz[i]){
 			bandera='V';
 			cout<<"El numero se encuentra en la posicion "<<i+1;
@@ -19,7 +19,7 @@ void Buscador (int Matriz[],int n){
 		cout<<"El numero no se encuentra en el arreglo ";
 	}
 }
-int Buscador lineal(){
+int Buscador_lineal(){
 	int n,opc,bandera=0,i;
 	cout<<"Digite el tamanio (n) del vector: ";
 	cin>>n;
@@ -28,7 +28,7 @@ int Buscador lineal(){
 	do {
 		switch(opc){
 			case 1: {
-				int min,max,A[n];
+				int min,max,A[1000];
 				cout<<"rango minimo: ";cin>>min;
 				cout<<"rango maximo: ";cin>>max;
 				srand(time(NULL));
@@ -41,7 +41,7 @@ int Buscador lineal(){
 				break;
 			}
 			case 2: {
-				int A[n];
+				int A[1000];
 				for(i=0;i<n;i++){
 					cout<<"Digite un numero: ";cin>>A[i];
 				}
