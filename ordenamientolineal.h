@@ -19,7 +19,7 @@ void Buscador (int Matriz[],int n){
 		cout<<"El numero no se encuentra en el arreglo ";
 	}
 }
-int Buscador lineal(){
+int Buscador_lineal(){
 	int n,opc,bandera=0,i;
 	cout<<"Digite el tamanio (n) del vector: ";
 	cin>>n;
@@ -58,5 +58,4 @@ int Buscador lineal(){
 			}
 		}
 	} while(bandera==0);
-	return 0;
 }
