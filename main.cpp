@@ -1,7 +1,8 @@
 #include <iostream>
 #include <time.h>
 #include "./ordenamiento.h"
-#include "./busqueda.h"
+#include "ordenamientolineal.h"
+//#include "./busqueda.h"
 
 #define MIN 1
 #define MAX 100
@@ -33,6 +34,7 @@ int main(int argc, char const *argv[])
     print(array, n);
     insertionSort(array, n);
     print(array, n);
+    Buscador_lineal();
     delete array;
     return 0;
 }
