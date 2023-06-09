@@ -3,6 +3,7 @@
 #include<time.h>
 #include<stdlib.h>
 using namespace std;
+//hshs
 void Buscador (int Matriz[],int n){
 	int E,i=0;
 	char bandera='F';
